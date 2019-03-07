@@ -1,0 +1,6 @@
+
+Msquid:S1172"1Remove this unused method parameter "qtyPerunit".(Àã«8åâÑÄ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¿¹ÏÇ8Ë–×Ã,
+Wsquid:S1068";Remove this unused "itemConsumedQntyPerUnit" private field.(Ä©áµ8·ë–×Ã,
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ôÑƒûüÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(²¢•ù8·ë–×Ã,

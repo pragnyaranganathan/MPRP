@@ -1,0 +1,18 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(®›ö8Ë¿³°,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(…òÓë8Þ©ï³°,
+asquid:UselessImportCheck"8Remove this unused import 'android.app.DownloadManager'.(åþÓÎ8¹Ï»³°,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(§Ë…ô8”˜°³°,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¶Â‚þþÿÿÿÿ8Ö‰º³°,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(þèºÝüÿÿÿÿ8ÛŸÈ³°,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(æ˜šë8Ö¼Å³°,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¥ó²¤ÿÿÿÿÿ8õ‡©³°,
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(‘þÎ÷ûÿÿÿÿ8¢Œ‰Š°,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(û„Ùýøÿÿÿÿ8í­Ý³°,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(®›ö8ºñ¶³°,
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Òÿ°Y8¿Ì³°,
+wsquid:S3923"[Remove this conditional structure or edit its code blocks so that they're not all the same.(É¹šÓ8¸èØ³°,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(£ï™¤ùÿÿÿÿ8Òä³°,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ô¤¡²ýÿÿÿÿ8‡Éç³°,
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ìÈÍ€üÿÿÿÿ
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ñ¼•ùÿÿÿÿ8ó½à³°,

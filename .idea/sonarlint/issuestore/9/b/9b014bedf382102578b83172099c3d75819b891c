@@ -1,0 +1,15 @@
+
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Àµ®ãüÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(ùÐí
+Xsquid:UselessImportCheck"6Remove this unused import 'android.media.MediaPlayer'.(Ýã¦
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¸½£¡ÿÿÿÿÿ
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(í›Ñž
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(í›Ñž
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éêá‰üÿÿÿÿ
+ksquid:UselessImportCheck"DRemove this unused import 'android.content.res.AssetFileDescriptor'.(Ï¡’Òýÿÿÿÿ
+Bsquid:S1185"(Remove this method to simply inherit it.(œƒƒ©ùÿÿÿÿ
+Bsquid:S1185"(Remove this method to simply inherit it.(©¤„Íýÿÿÿÿ
+hsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(ö–äâüÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(µÀ†•
+Rsquid:S00107"<Method has 8 parameters, which is greater than 7 authorized.(ùÐí
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¥ïúÚüÿÿÿÿ

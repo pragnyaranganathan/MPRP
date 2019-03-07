@@ -1,0 +1,36 @@
+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8»Ó´†Â,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ë¯»ã8éâÏÏÄ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(–â¿üÿÿÿÿ8£Ø—íÇ,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8£Ø—íÇ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ô¼ÂÄýÿÿÿÿ8üñšîÇ,
+Ksquid:S1066"/Merge this if statement with the enclosing one.(úŠÙê8¹ŽÁ‘À,
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ö¥†}8ì•çÝº,
+?squid:S1148"#Use a logger to log this exception.(Ç’Çê8ªÒžíÇ,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ë©€ŽÁ,
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(³ºçÕýÿÿÿÿ8û«ŒÁ,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ªÒžíÇ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ë¯»ã8éâÏÏÄ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Îþªï8ªàÖ¯Â,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÚŸ­Óúÿÿÿÿ8»Ó´†Â,
+Dsquid:S1481"(Remove this unused "ret" local variable.(áê”8ŒÉ îÇ,
+]squid:S1075"ARefactor your code to get this URI from a customizable parameter.(úÔËƒ8áÄæîÇ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‹ÑŸÖüÿÿÿÿ8µ£—íÇ,
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(Çðõ"8ªÒžíÇ,
+]
+squid:S899"BDo something with the "boolean" value returned by "createNewFile".(áê”8ËÖ›îÇ,
+osquid:MaximumInheritanceDepth"<This class has 9 parents which is greater than 5 authorized.(ßÏ‚Äúÿÿÿÿ8äÛ™”È,
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¶½½Öûÿÿÿÿ
+Nsquid:S1135"2Complete the task associated to this TODO comment.(Ûùý8ì•çÝº,
+3squid:S2757"Was "-=" meant instead?(ã™íŒ8ì•çÝº,
+csquid:UnusedPrivateMethod"4Remove this unused private "writeJsonToFile" method.(’Ùéñÿÿÿÿÿ8©üÜ”È,
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÙÕúw8éÝæîÇ,
+asquid:S2147"ECombine this catch with the one at line 935, which has the same body.(ï­£Ä8»Ó´†Â,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8»Ó´†Â,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8»Ó´†Â,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(®ÙÕ¥ûÿÿÿÿ8ì•çÝº,
+fsquid:S2147"ECombine this catch with the one at line 935, which has the same body.(°êã§ýÿÿÿÿ8»Ó´†Â,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(À‡€Ã8»Ó´†Â,
+Ksquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ªÒžíÇ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Øš‹Æýÿÿÿÿ8ì•çÝº,

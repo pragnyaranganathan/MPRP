@@ -1,0 +1,9 @@
+
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(âÜóŸ8È‡á«²,
+ksquid:CallToDeprecatedMethod"9Remove this use of "setDrawerListener"; it is deprecated.(ø¶Âßÿÿÿÿÿ8ö©î«²,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿ß×Â8È‡á«²,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(°Š£×8È‡á«²,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(îƒ²Ïÿÿÿÿÿ8È‡á«²,
+gsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(¦¦¢†8¶ª°«²,
+osquid:MaximumInheritanceDepth"<This class has 9 parents which is greater than 5 authorized.(«ıûÌúÿÿÿÿ8åÿÓ¤©,
+U"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(¦¦¢†8ÌÎ‚œ¢,

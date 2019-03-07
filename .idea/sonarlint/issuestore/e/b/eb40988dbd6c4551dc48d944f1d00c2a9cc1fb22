@@ -1,0 +1,7 @@
+
+lsquid:UselessImportCheck"CRemove this unused import 'com.android.volley.toolbox.JsonRequest'.(ÛÊÛÆ8–Ÿ­…Â,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(°¯­¾8Ÿü„¶Á,
+asquid:UselessImportCheck"3Remove this unused import 'org.json.JSONException'.(¹Ó·úÿÿÿÿ8–Ÿ­…Â,
+^squid:UselessImportCheck"0Remove this unused import 'org.json.JSONObject'.(œÖ´üþÿÿÿÿ8–Ÿ­…Â,
+fsquid:S2147"ECombine this catch with the one at line 103, which has the same body.(šÌÌ±ýÿÿÿÿ8åþ­…Â,
+Lsquid:UselessImportCheck"Remove this duplicated import.(øÛ“«þÿÿÿÿ8–Ÿ­…Â,

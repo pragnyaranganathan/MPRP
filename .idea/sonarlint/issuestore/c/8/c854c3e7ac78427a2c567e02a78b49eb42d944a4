@@ -1,0 +1,25 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¿†§²8ÐÝÌ½Ý,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8÷ÒÆµÝ,
+osquid:MaximumInheritanceDepth"<This class has 9 parents which is greater than 5 authorized.( Å‚öûÿÿÿÿ8 ßå¹Ü,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8÷ÒÆµÝ,
+Dsquid:S1659"(Declare "saveButton" on a separate line.(¡Ê®8±ò¶²Ý,
+™squid:UselessImportCheck"kRemove this unused import 'in.epochconsulting.erpnext.mprp.transform_items.pojo.TransformedItemServerData'.(“ÒÂ´üÿÿÿÿ8âÛ¯íÐ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ï•›¼8³„ÐµÝ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(–â¿üÿÿÿÿ8ó˜ÊµÝ,
+”squid:UselessImportCheck"kRemove this unused import 'in.epochconsulting.erpnext.mprp.transform_items.pojo.TransformItemsDetailsList'.(óáÐÛ8›©Ä¡Ï,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹†‘öÿÿÿÿÿ8³„ÐµÝ,
+œsquid:UselessImportCheck"nRemove this unused import 'in.epochconsulting.erpnext.mprp.transform_items.activity.BatchNoSelectionActivity'.(Âõ¨Ìüÿÿÿÿ8ôâ‰²Ý,
+ˆsquid:UselessImportCheck"_Remove this unused import 'in.epochconsulting.erpnext.mprp.transform_items.model.ItemMadeList'.(”·¤è8’Ýä¹Ü,
+ssquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8ÊÄå¹Ü,
+asquid:S2147"ECombine this catch with the one at line 607, which has the same body.(ï­£Ä8÷ÒÆµÝ,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8÷ÒÆµÝ,
+squid:UselessImportCheck"dRemove this unused import 'in.epochconsulting.erpnext.mprp.transform_items.model.ItemConsumedModel'.(êÆä±8çÌµÝ,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Éæ——8Ôãç¹Ü,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Û¨ò Ï,
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(–½Âùÿÿÿÿ
+fsquid:S2147"ECombine this catch with the one at line 607, which has the same body.(°êã§ýÿÿÿÿ8÷ÒÆµÝ,
+Žsquid:UselessImportCheck"`Remove this unused import 'in.epochconsulting.erpnext.mprp.transform_items.model.ItemMadeModel'.(³þÝžúÿÿÿÿ8šºñÛÝ,
+Ksquid:S1066"/Merge this if statement with the enclosing one.(åâäº8 ­—²Ý,
+3squid:S2757"Was "-=" meant instead?(ã™íŒ8§ÒÑ¹Ü,

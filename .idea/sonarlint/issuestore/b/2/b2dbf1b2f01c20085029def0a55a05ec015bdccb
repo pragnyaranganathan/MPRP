@@ -1,0 +1,10 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¢Ñþ†8Ž¯“×Ã,
+›"squid:ClassVariableVisibilityCheck"jMake recyclerView_consumedItemsList a static final constant or non-public and provide accessors if needed.(Ýê™ˆýÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ààü¤8Òå’×Ã,
+„squid:S00116"iRename this field "recyclerView_consumedItemsList" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ýê™ˆýÿÿÿÿ
+`squid:UselessImportCheck"2Remove this unused import 'android.text.Editable'.(À”áÈþÿÿÿÿ8øÁáÑÄ,
+^squid:UselessImportCheck"5Remove this unused import 'android.text.TextWatcher'.( š«8øÁáÑÄ,
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ôÑƒûüÿÿÿÿ
+isquid:UselessImportCheck";Remove this unused import 'android.widget.CheckedTextView'.(†ÿåûÿÿÿÿ8é‰¸ýÃ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¤¹…Ç8øÁáÑÄ,

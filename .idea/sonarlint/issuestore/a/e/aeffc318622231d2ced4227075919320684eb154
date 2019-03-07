@@ -1,0 +1,10 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ôÁˆÌ8Í¹åÜİ,
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(šØÔ8¾à†İİ,
+6squid:S1700"!Rename field "selectTaskFragment"(éÔÕ¤
+Nsquid:S1135"2Complete the task associated to this TODO comment.(Ê—˜8Ù¨ğóÎ,
+Ssquid:S1068">Remove this unused "selectModeFragmentListener" private field.(Íúş
+gsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(¦¦¢†8Ã–ıÜİ,
+U"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(¦¦¢†8Ã–ıÜİ,
+~squid:S1450"iRemove the "selectModeFragmentListener" field and declare it as a local variable in the relevant methods.(Íúş
+osquid:UnusedPrivateMethod"@Remove this unused private "showDialogToChooseIssueType" method.(ôïôÕıÿÿÿÿ8Í¹åÜİ,

@@ -1,0 +1,19 @@
+
+Nsquid:UselessParenthesesCheck"!Remove these useless parentheses.(ßÍúc8ç­¶’È,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÿ¿åŠ8¸¥æ’È,
+Osquid:UselessParenthesesCheck"!Remove these useless parentheses.(°¯šÎ8ç­¶’È,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ìý«8ç­¶’È,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÒÑòý8ç­¶’È,
+:squid:S2153"Remove the boxing to "Double".(°¯šÎ8ç­¶’È,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ºðÞúÿÿÿÿ8ç­¶’È,
+Vsquid:S1481"5Remove this unused "batchNoModelList" local variable.(êû‡‡ùÿÿÿÿ8ç­¶’È,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(§Ë…ô8ç­¶’È,
+esquid:S1854"DRemove this useless assignment to local variable "batchNoModelList".(êû‡‡ùÿÿÿÿ8ç­¶’È,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(®›ö8ç­¶’È,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ö÷ô8ÈâÏÏÄ,
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ÿòæÇ8ç­¶’È,
+Nsquid:S1172"2Remove this unused method parameter "useBOMValue".(–ûÝ8ç­¶’È,
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ìÈÍ€üÿÿÿÿ

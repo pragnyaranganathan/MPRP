@@ -1,0 +1,4 @@
+
+¢"squid:ClassVariableVisibilityCheck"jMake recyclerView_consumedItemsList a static final constant or non-public and provide accessors if needed.(İê™ˆıÿÿÿÿ8éÅåì¬,
+‹squid:S00116"iRename this field "recyclerView_consumedItemsList" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İê™ˆıÿÿÿÿ8éÅåì¬,
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ôÑƒûüÿÿÿÿ

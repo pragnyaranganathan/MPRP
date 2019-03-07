@@ -1,0 +1,12 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ü„òµ8ª ¥¼¯,
+ksquid:S1854"JRemove this useless assignment to local variable "consumedItemViewHolder".(å±ÔÝøÿÿÿÿ8ª ¥¼¯,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(÷‡àÅ8ˆ­…å¬,
+Fsquid:S1172"*Remove this unused method parameter "vh2".(³ÂÔ¤8õà¶ä¯,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ð®éæ8Ø›‹å¬,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(†®Òå8õà¶ä¯,
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ìÈÍ€üÿÿÿÿ
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(†ôÿ©ÿÿÿÿÿ8”ãîÄ­,
+Msquid:S1172"1Remove this unused method parameter "viewHolder".(ÂîÆ8”ãîÄ­,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(…°ôœþÿÿÿÿ8×× ¼¯,
+isquid:S1854"MRemove this useless assignment to local variable "transformedItemViewHolder".(Ï‡¶»8×× ¼¯,

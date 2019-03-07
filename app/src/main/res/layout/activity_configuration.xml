@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.epochconsulting.erpnext.mprp.activity.Configuration">
+
+
+
+        <LinearLayout
+            android:id="@+id/linearlayout_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/top_margin"
+                android:src="@mipmap/ic_launcher"
+                android:contentDescription="@string/logo"
+                android:layout_weight="0.30"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/fabulous_margin"
+                android:layout_marginRight="@dimen/fabulous_margin"
+                android:layout_marginTop="@dimen/fabulous_margin"
+                android:text="@string/serversettings"
+                android:layout_weight="0.70"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearlayout_logo"
+            android:layout_marginTop="@dimen/fabulous_margin"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/server_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fabulous_margin"
+                android:layout_marginRight="@dimen/fabulous_margin"
+                android:layout_marginTop="@dimen/fabulous_margin"
+                android:hint="@string/provideserveraddress"
+                android:inputType="text"
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fabulous_margin"
+                android:layout_marginRight="@dimen/fabulous_margin"
+                android:text="@string/exampleserveraddress" />
+
+            <Button
+                android:id="@+id/nextbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fabulous_margin"
+                android:layout_marginRight="@dimen/fabulous_margin"
+                android:layout_marginTop="@dimen/fabulous_margin"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/next"
+                android:textColor="@color/cardview_light_background" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+

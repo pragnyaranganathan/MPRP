@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+
+
+
+    >
+    <TextView
+        android:id="@+id/requested_item_slno"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:gravity="center"
+
+        android:background="@drawable/customborder"
+        android:textColor="@color/cardview_dark_background"/>
+
+
+    <TextView
+
+        android:id="@+id/requested_item_code"
+        android:layout_width="0dp"
+         android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@drawable/customborder"
+
+        >
+
+    </TextView>
+    <TextView
+        android:id="@+id/requested_item_uom"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+
+        android:background="@drawable/customborder"
+        android:textColor="@color/cardview_dark_background"/>
+    <TextView
+        android:id="@+id/requested_item_available_qnty"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+
+        android:background="@drawable/customborder"
+        android:textColor="@color/cardview_dark_background"/>
+    <EditText
+        android:id="@+id/requested_item_requested_qnty"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        android:imeOptions="actionDone"
+        android:textColor="@color/cardview_dark_background"
+        android:background="@drawable/customborder"/>
+
+
+</LinearLayout>

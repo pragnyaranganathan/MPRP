@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:layout_marginTop="@dimen/txfm_items_cell_margin"
+    android:layout_marginBottom="@dimen/txfm_items_cell_margin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:text="@string/items_made_label"
+            android:layout_weight=".65"
+            android:textColor="@color/cardview_light_background"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:layout_weight="0.30"
+            android:textColor="@color/cardview_light_background"
+            android:text="@string/txfm_item_stock_uom_label" />
+
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:layout_weight="0.45"
+            android:text="@string/txfm_item_quantity_label"
+            android:textColor="@color/cardview_light_background"
+            />
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:layout_weight="0.30"
+            android:text="@string/select_str"
+            android:textColor="@color/cardview_light_background"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.30"
+            android:text="@string/use_BOM_values_str"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:textColor="@color/cardview_light_background"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark"
+
+
+        >
+
+
+        <TextView
+            android:id="@+id/list_item_transformed_name_raw_material"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:layout_weight=".65"
+            tools:text="Raw Material"
+            android:textColor="@color/cardview_light_background"/>
+
+
+       <TextView
+            android:id="@+id/item_made_raw_material_stock_uom"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:layout_weight="0.3"
+            android:textColor="@color/cardview_light_background"
+            />
+
+        <EditText
+            android:id="@+id/list_item_transformed_name_raw_material_qnty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:layout_weight="0.45"
+            android:imeOptions="actionDone"
+            android:textColor="@color/cardview_light_background"
+            />
+        <ImageView
+            android:id="@+id/item_made_raw_material_set_batch_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.30"
+            android:src="@drawable/ic_arrow_down"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            />
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.30"
+            android:id="@+id/usebomval_rm"
+            android:layout_marginLeft="@dimen/txfm_items_cell_margin"
+            android:clickable="true"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/cardview_light_background"/>
+
+
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/items_consumed_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/border_margin"
+        android:textSize="@dimen/sln_batchno_font_size"
+        android:background="@color/colorError"
+        android:id="@+id/delete_row_rm"
+        android:text="Delete row"
+        android:textColor="@color/cardview_light_background"/>
+
+</LinearLayout>

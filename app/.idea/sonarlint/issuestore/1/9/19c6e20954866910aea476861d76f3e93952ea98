@@ -1,0 +1,5 @@
+
+lsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ÿ¶°Øüÿÿÿÿ8–ËÖ›«,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(§ÆÔÖ8Š€ûí«,
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ÿ¶°Øüÿÿÿÿ8–ËÖ›«,
+ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ìÈÍ€üÿÿÿÿ8è·×œ«,

@@ -1,0 +1,12 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Œ¤8¤¸Æè¬,
+Nsquid:S1135"2Complete the task associated to this TODO comment.(Ûùý8¤¸Æè¬,
+isquid:MaximumInheritanceDepth"<This class has 9 parents which is greater than 5 authorized.(ì‘58¤¸Æè¬,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡…Ó‚ùÿÿÿÿ8¤¸Æè¬,
+Dsquid:S1185"(Remove this method to simply inherit it.(†Þî½8¤¸Æè¬,
+3squid:S2757"Was "-=" meant instead?(ã™íŒ8¤¸Æè¬,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(âôì®øÿÿÿÿ8é»Ì²°,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(þÓ—8ØµœÆ­,
+ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¶½½Öûÿÿÿÿ8¦±Æ«,
+Dsquid:S1185"(Remove this method to simply inherit it.(Ñ‚«µ8¤¸Æè¬,

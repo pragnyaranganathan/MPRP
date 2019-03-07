@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.epochconsulting.erpnext.mprp.request_items.activity.RequestItemsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/requestitems_logo_and_hint_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/fab_margin"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:text="@string/request_items_hint_str" />
+        </LinearLayout>
+
+
+        <!-- TODO: Display the recycler view  below-->
+        <LinearLayout
+            android:id="@+id/linear_layout_datePicker"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:layout_below="@id/requestitems_logo_and_hint_layout"
+            android:weightSum="1.5">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_weight=".40"
+                android:text="@string/required_by_date_str"
+                android:gravity="center_vertical"/>
+
+            <EditText
+                android:id="@+id/edit_text_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/txfm_items_cell_margin"
+                android:layout_weight=".60"
+                android:textAlignment="center"
+                android:inputType="date"
+                android:imeOptions="actionDone"
+                android:hint="@string/date_format_str"/>
+
+            <Button
+                android:id="@+id/pick_date_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_weight=".5"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/pick_date"
+
+                android:textAlignment="center"
+                android:textColor="@color/cardview_light_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_requestitems_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_layout_datePicker"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_marginTop="@dimen/fab_margin">
+
+            <TextView
+                android:id="@+id/requested_slno_label"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+
+                android:background="@drawable/customborder"
+                android:gravity="center"
+                android:text="@string/slno_str"
+                android:textColor="@color/cardview_dark_background" />
+
+            <TextView
+                android:id="@+id/requested_item_code_label"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+
+                android:background="@drawable/customborder"
+                android:gravity="center"
+                android:text="@string/required_items_str"
+                android:textColor="@color/cardview_dark_background" />
+
+            <TextView
+                android:id="@+id/requested_item_uom_label"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/customborder"
+
+                android:gravity="center"
+                android:text="@string/uom_str"
+                android:textColor="@color/cardview_dark_background" />
+
+            <TextView
+                android:id="@+id/requested_item_available_qnty_label"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/customborder"
+
+                android:gravity="center"
+                android:text="@string/available_qnty_str"
+                android:textColor="@color/cardview_dark_background" />
+
+            <TextView
+                android:id="@+id/requested_item_requested_qnty_label"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/customborder"
+                android:gravity="center"
+                android:text="@string/required_qnty_str"
+                android:textColor="@color/cardview_dark_background" />
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_requested_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_layout_requestitems_label"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:scrollbars="vertical">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recycler_view_requested_items"
+            android:layout_margin="@dimen/fab_margin"
+
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/request_items_addRow_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".4"
+                android:background="@color/colorPrimaryDark"
+                android:text="Add Row"
+                android:textColor="@color/cardview_light_background" />
+
+            <Button
+                android:id="@+id/requestItems_saveorsubmit_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_weight=".6"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/save_str"
+                android:textColor="@color/cardview_light_background" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+

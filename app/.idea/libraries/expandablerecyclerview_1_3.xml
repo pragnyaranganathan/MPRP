@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="expandablerecyclerview-1.3">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/c2a91bc11f99434604fa6ad7c54378ce6dd615af/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/c2a91bc11f99434604fa6ad7c54378ce6dd615af/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtbot/expandablerecyclerview/1.3/5b7ece86ec88ea00841aa4ccfb127f8ae1798709/expandablerecyclerview-1.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

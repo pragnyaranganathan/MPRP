@@ -1,0 +1,9 @@
+
+hsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(ûÅŽÏùÿÿÿÿ
+ˆsquid:UselessImportCheck"_Remove this unused import 'in.epochconsulting.erpnext.mprp.transform_items.model.ItemMadeList'.(”·¤è8èäâ¨»,
+™squid:UselessImportCheck"kRemove this unused import 'in.epochconsulting.erpnext.mprp.transform_items.pojo.TransformedItemServerData'.(“ÒÂ´üÿÿÿÿ8“Ð¶ìÜ,
+psquid:UselessImportCheck"BRemove this unused import 'android.support.v4.app.DialogFragment'.(«£Æóýÿÿÿÿ8„×µµÁ,
+ˆsquid:UselessImportCheck"_Remove this unused import 'in.epochconsulting.erpnext.mprp.transform_items.pojo.ItemsConsumed'.(ä®Ý8“Ð¶ìÜ,
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¶½½Öûÿÿÿÿ
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ìøééÿÿÿÿÿ8ê¨ÞïÇ,
+‚squid:UselessImportCheck"YRemove this unused import 'in.epochconsulting.erpnext.mprp.fragments.DatePickerFragment'.(ã­ã8æ¥¶µÁ,

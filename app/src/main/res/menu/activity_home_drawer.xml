@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_select_task"
+            android:icon="@drawable/ic_select_task_black_24dp"
+            android:title="@string/select_task"
+            />
+
+    </group>
+
+    <item android:title="@string/exit_str">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_user_logout_black_24dp"
+                android:title="@string/logout_str" />
+
+        </menu>
+    </item>
+
+</menu>

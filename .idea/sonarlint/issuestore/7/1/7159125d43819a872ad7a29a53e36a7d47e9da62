@@ -1,0 +1,10 @@
+
+msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‡²¦
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(îê˜œúÿÿÿÿ8˜™éàÁ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¯ƒòù8‚ÉÚŸÆ,
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¿ùŠß8â¯èàÁ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ö‹ğ›8†Ï·×Ã,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õçÆ‰ıÿÿÿÿ8¥ãÛŸÆ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ö‹ğ›8ºà¡×Ã,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ö¯±Ûşÿÿÿÿ8ÚÚŸàÁ,
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(£Àßèùÿÿÿÿ8¥ÅİŸÆ,

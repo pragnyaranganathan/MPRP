@@ -1,0 +1,6 @@
+
+Osquid:S1481".Remove this unused "stockQnty" local variable.(üá¸ñşÿÿÿÿ8¸¤³°,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÍéÜúÿÿÿÿ8±¼¢³°,
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(§“ç38±¼¢³°,
+tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‡²¦8’öØê«,
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(·ìÉ‘8‰­öè¬,

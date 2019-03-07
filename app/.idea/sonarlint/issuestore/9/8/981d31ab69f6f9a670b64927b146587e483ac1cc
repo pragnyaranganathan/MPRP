@@ -1,0 +1,6 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜Ã˜8©Ò‡¥©,
+…squid:S1450"iRemove the "selectModeFragmentListener" field and declare it as a local variable in the relevant methods.(Íúş8ÂÖ†£²,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(“¯Ò 8ÂÖ†£²,
+=squid:S1700"!Rename field "selectTaskFragment"(éÔÕ¤8è„ÏÏ©,
+Zsquid:S1068">Remove this unused "selectModeFragmentListener" private field.(Íúş8ÂÖ†£²,

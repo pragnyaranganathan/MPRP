@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/dialog_set_batch_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="@dimen/fab_margin"
+        android:paddingRight="@dimen/fab_margin"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="@dimen/title_fontsize"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin">
+
+
+        <TextView
+            android:id="@+id/dialog_set_batch_message"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="@dimen/message_fontsize"
+            android:text="@string/pick_batch_str"
+            android:layout_weight=".5"
+
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/dialog_set_batch_edittext"
+            android:layout_weight="0.5"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/message_fontsize"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:id="@+id/batch_expiry_date_picker_button"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/cardview_light_background"
+            android:text="@string/pick_exp_date_str"
+            android:textSize="@dimen/message_fontsize"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_weight="0.5"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:id="@+id/batch_expiry_edittext"
+            android:hint="@string/date_format_str"
+            android:textSize="@dimen/message_fontsize"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sln_instructions"
+            android:textSize="@dimen/message_fontsize"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sln_list"
+            android:inputType="textMultiLine"
+            android:textSize="@dimen/sln_batchno_font_size"
+
+           />
+    </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

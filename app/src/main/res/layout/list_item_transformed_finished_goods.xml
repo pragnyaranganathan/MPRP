@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/txfm_items_cell_margin"
+    android:layout_marginTop="@dimen/txfm_items_cell_margin"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:weightSum="2"
+       >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:text="@string/items_made_label"
+            android:layout_weight="0.65"
+            android:textColor="@color/cardview_light_background"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:text="@string/txfm_item_stock_uom_label"
+            android:layout_weight="0.30"
+            android:textColor="@color/cardview_light_background"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/txfm_items_cell_margin"
+            android:text="@string/txfm_item_quantity_label"
+            android:layout_weight="0.45"
+            android:textColor="@color/cardview_light_background"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:layout_weight="0.30"
+            android:text="@string/select_str"
+
+            android:textColor="@color/cardview_light_background"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.30"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:text="@string/use_BOM_values_str"
+            android:textColor="@color/cardview_light_background"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:background="@color/colorPrimaryDark"
+        >
+        <TextView
+            android:id="@+id/list_item_transformed_finished_goods_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:layout_weight="0.65"
+            android:gravity="start"
+            tools:text="Finished Goods"
+            android:textColor="@color/cardview_light_background"
+            />
+       <!-- <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:layout_weight="0.45"
+            android:id="@+id/list_item_finished_goods_qty_used_per_unit"
+            android:textColor="@color/cardview_light_background"
+
+            />-->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.30"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:id="@+id/txfm_item_made_finished_goods_stock_uom"
+            android:textColor="@color/cardview_light_background"
+
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/list_item_transformed_finished_goods_qnty"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.45"
+            android:layout_marginLeft="@dimen/txfm_items_cell_margin"
+            android:imeOptions="actionDone"
+            android:textColor="@color/cardview_light_background"
+            />
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.30"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:id="@+id/item_made_finished_goods_set_batch_number_button"
+            android:src="@drawable/ic_arrow_down" />
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.30"
+            android:id="@+id/usebomval_fg"
+            android:layout_marginLeft="@dimen/txfm_items_cell_margin"
+            android:clickable="true"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/cardview_light_background"/>
+
+
+    </LinearLayout>
+
+
+    <!-- TODO: Put a spinner here to select the item from the drop down and handle item changed events and populate the child view holder-->
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/items_consumed_rv_finished_goods"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/border_margin"
+        android:textSize="@dimen/sln_batchno_font_size"
+        android:background="@color/colorError"
+        android:id="@+id/delete_row_fg"
+        android:text="Delete Row"
+        android:textColor="@color/cardview_light_background"/>
+
+</LinearLayout>

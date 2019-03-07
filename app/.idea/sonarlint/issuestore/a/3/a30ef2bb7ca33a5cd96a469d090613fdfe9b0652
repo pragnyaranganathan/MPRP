@@ -1,0 +1,4 @@
+
+\squid:S1068";Remove this unused "ALTERNATE_API_PATH_NAME" private field.(µ‡ÔÚüÿÿÿÿ8ıÉ½«°,
+usquid:S3008"YRename this field "SERVER_ADDRESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Ğ°8Ïµ£Ë ,
+Psquid:EmptyStatementUsageCheck"Remove this empty statement.(µ‡ÔÚüÿÿÿÿ8™¡«,

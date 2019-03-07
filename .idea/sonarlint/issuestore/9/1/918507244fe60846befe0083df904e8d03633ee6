@@ -1,0 +1,4 @@
+
+¥squid:UselessImportCheck"‚Remove this unused import 'in.epochconsulting.erpnext.mprp.transform_items.view.CustomTransformedItemsForFinishedGoodsViewHolder'.(Õµÿ¤
+¨squid:UselessImportCheck"€Remove this unused import 'in.epochconsulting.erpnext.mprp.transform_items.view.CustomTransformedItemsForRawMaterialViewHolder'.(·ðÞäúÿÿÿÿ
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ìÈÍ€üÿÿÿÿ

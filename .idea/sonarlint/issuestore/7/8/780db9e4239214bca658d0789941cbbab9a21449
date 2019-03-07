@@ -1,0 +1,4 @@
+
+Usquid:S00107"AConstructor has 8 parameters, which is greater than 7 authorized.(‚Ü
+msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‡²¦
+Ysquid:UselessImportCheck"1Remove this unused import 'java.util.LinkedList'.(»Äğ18ããàÁ,

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/issue_item_from_stock_popup"
+        android:title="@string/issue_materials_already_in_stock_str" />
+    <item
+        android:id="@+id/make_and_issue_item_popup"
+        android:title="@string/make_and_issue_materials_str" />
+
+
+</menu>

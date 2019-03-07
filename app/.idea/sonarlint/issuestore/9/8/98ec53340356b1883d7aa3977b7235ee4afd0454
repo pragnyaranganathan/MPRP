@@ -1,0 +1,10 @@
+
+Nsquid:S1135"2Complete the task associated to this TODO comment.(Ûùı8µÄ¥¦²,
+lsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¨¨Ê
+Xsquid:S1068"7Remove this unused "mrequestedItemsList" private field.(ğòŠ»ûÿÿÿÿ8»Ø„ª²,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Éæ——8ğÙôª²,
+3squid:S2757"Was "-=" meant instead?(ã™íŒ8µÄ¥¦²,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Îşªï8ğÙôª²,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Îşªï8ğÙôª²,
+isquid:MaximumInheritanceDepth"<This class has 9 parents which is greater than 5 authorized.(‘Â±8õûÙ«²,
+Fsquid:S1659"*Declare "addRowButton" on a separate line.(¾ˆ·½8‘‘ø¤²,

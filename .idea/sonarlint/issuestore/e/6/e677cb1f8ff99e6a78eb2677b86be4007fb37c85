@@ -1,0 +1,4 @@
+
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ηόπόÿÿÿÿ
+Osquid:S1118":Add a private constructor to hide the implicit public one.(„Υ›¨
+squid:UselessImportCheck"gRemove this unused import 'in.epochconsulting.erpnext.mprp.request_items.pojo.RequestItemsDetailsList'.(†άωÿÿÿÿ

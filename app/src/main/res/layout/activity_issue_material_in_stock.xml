@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.epochconsulting.erpnext.mprp.issue_materials.activity.IssueMaterialInStockActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <!-- TODO: Display the recycler view  below-->
+        <LinearLayout
+            android:id="@+id/issuematerialfromstock_logo_and_hint_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/fab_margin"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:text="@string/choose_item_to_be_issued_str" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear_layout_issuematerialfromstock_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/issuematerialfromstock_logo_and_hint_layout"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:layout_marginRight="@dimen/txfm_items_cell_content_margin"
+
+            android:layout_marginTop="@dimen/fab_margin"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/issuematerialfromstock_slno_label"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15"
+
+                android:background="@drawable/customborder"
+                android:gravity="center"
+                android:text="@string/slno_str"
+                android:textColor="@color/cardview_dark_background" />
+
+            <TextView
+                android:id="@+id/issued_item_code_label"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".40"
+
+                android:background="@drawable/customborder"
+                android:gravity="center"
+                android:text="@string/issue_items"
+                android:textColor="@color/cardview_dark_background" />
+
+            <TextView
+                android:id="@+id/issued_item_uom_label"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/customborder"
+
+                android:gravity="center"
+                android:text="@string/uom_str"
+                android:textColor="@color/cardview_dark_background" />
+
+            <TextView
+                android:id="@+id/issued_item_available_qnty_label"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.30"
+                android:background="@drawable/customborder"
+
+                android:gravity="center"
+                android:text="@string/available_qnty_str"
+                android:textColor="@color/cardview_dark_background" />
+            <TextView
+                android:id="@+id/issued_item_qnty_label"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.30"
+                android:background="@drawable/customborder"
+
+                android:gravity="center"
+                android:text="@string/issue_qnty_str"
+                android:textColor="@color/cardview_dark_background" />
+
+            <TextView
+                android:id="@+id/issued_item_wh_label"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.40"
+                android:background="@drawable/customborder"
+                android:gravity="center"
+                android:text="@string/select_WH_str"
+                android:textColor="@color/cardview_dark_background" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_weight="0.20"
+                android:background="@drawable/customborder"
+                android:layout_gravity="center_vertical"
+                android:text="@string/select_batch_and_sln_str"/>
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_issuefromstock_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_layout_issuematerialfromstock_label"
+            android:layout_marginLeft="@dimen/txfm_items_cell_content_margin"
+            android:layout_marginRight="@dimen/txfm_items_cell_content_margin"
+            android:scrollbars="vertical">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recycler_view_issuefromstock_items"
+            android:layout_margin="@dimen/fab_margin"
+
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/issue_items_addRow_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".4"
+                android:background="@color/colorPrimaryDark"
+                android:text="Add Row"
+                android:textColor="@color/cardview_light_background" />
+
+            <Button
+                android:id="@+id/issueitems_save_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_weight=".6"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/save_str"
+                android:textColor="@color/cardview_light_background" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‘ïÊşÿÿÿÿ8ü©°ì¬,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(„²€ûùÿÿÿÿ8¹Ìü³¯,
+msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‡²¦
+squid:S1319"€The type of the "itemConsumedModelList" object should be an interface such as "List" rather than the implementation "ArrayList".(Ûµ”Â8ü©°ì¬,
